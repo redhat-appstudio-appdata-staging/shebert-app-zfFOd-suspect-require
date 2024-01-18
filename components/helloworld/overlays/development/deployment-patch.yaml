@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: helloworld
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/shebert-tenant/shebert-app/helloworld@sha256:1e2d1415c5c71d1051b6a60bc611837306f8b2e1568646f2e484875bd54a869f
+        name: container-image
+        resources: {}
+status: {}

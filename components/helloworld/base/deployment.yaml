@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: helloworld
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/shebert-tenant/shebert-app/helloworld@sha256:1e2d1415c5c71d1051b6a60bc611837306f8b2e1568646f2e484875bd54a869f
+      - image: quay.io/redhat-user-workloads-stage/shebert-tenant/shebert-app/helloworld@sha256:d5005ca8feb202e6be9335523e0ec2e8c05a91fd5a64910429289e7b9fee88a6
         imagePullPolicy: Always
         name: container-image
         resources: {}
